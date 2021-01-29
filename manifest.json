@@ -1,0 +1,27 @@
+{
+    "name": "Switcher",
+    "version": "1.0",
+    "description": "Pause and play music!",
+    "commands": {
+        "test_feature": {
+            "suggested_key": {
+                "default": "Alt+Shift+W"
+            },
+            "description": "test_one"
+        }
+    },
+    "content_scripts": [{
+      "matches": "http[s]?://*youtube.com*",
+      "js": "youtubePlayerScript.js"
+
+    }],
+    "permissions": [
+        "tabs",
+        "https://www.youtube.com/"
+      ],
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+      },
+    "manifest_version": 2
+  }
