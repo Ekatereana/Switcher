@@ -10,14 +10,9 @@
             "description": "test_one"
         }
     },
-    "content_scripts": [{
-      "matches": "http[s]?://*youtube.com*",
-      "js": "youtubePlayerScript.js"
-
-    }],
     "permissions": [
         "tabs",
-        "https://www.youtube.com/"
+        "https://www.youtube.com/*"
       ],
     "background": {
         "scripts": ["background.js"],
