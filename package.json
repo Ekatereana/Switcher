@@ -1,0 +1,26 @@
+{
+  "name": "chrome-extention",
+  "version": "1.0.0",
+  "description": "switcher for youtube",
+  "main": "background.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ekatereana/YouTubeControllExtention.git"
+  },
+  "keywords": [
+    "chrome",
+    "node"
+  ],
+  "author": "ekate",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ekatereana/YouTubeControllExtention/issues"
+  },
+  "homepage": "https://github.com/Ekatereana/YouTubeControllExtention#readme",
+  "devDependencies": {
+    "eslint": "^7.18.0"
+  }
+}

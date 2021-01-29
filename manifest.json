@@ -3,12 +3,18 @@
     "version": "1.0",
     "description": "Pause and play music!",
     "commands": {
-        "test_feature": {
+        "current": {
             "suggested_key": {
-                "default": "Alt+Shift+W"
+                "default": "Alt+S"
             },
-            "description": "test_one"
-        }
+            "description": "play or pause current song"
+        },
+        "next": {
+          "suggested_key": {
+              "default": "Alt+D"
+          },
+          "description": "play next song"
+      }
     },
     "permissions": [
         "tabs",
