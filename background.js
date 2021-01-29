@@ -17,6 +17,10 @@ chrome.commands.onCommand.addListener(function(command) {
     if (command === 'next'){
       chrome.tabs.executeScript(tab[0].id, {code: 'document.getElementsByClassName("ytp-next-button")[0].click();'});
     }
+
+    if(command === 'previous') {
+      chrome.tabs.executeScript(tab[0].id, {code: 'history.back();'})
+    }
     
   });
   

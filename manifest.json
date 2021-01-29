@@ -1,19 +1,25 @@
 {
     "name": "Switcher",
-    "version": "1.0",
+    "version": "2.0",
     "description": "Pause and play music!",
     "commands": {
         "current": {
             "suggested_key": {
-                "default": "Alt+S"
+                "default": "Alt+Shift+Up"
             },
             "description": "play or pause current song"
         },
         "next": {
           "suggested_key": {
-              "default": "Alt+D"
+              "default": "Alt+Shift+Right"
           },
           "description": "play next song"
+      },
+      "previous": {
+        "suggested_key": {
+          "default": "Alt+Shift+Left"
+      },
+      "description": "play previous song"
       }
     },
     "permissions": [
