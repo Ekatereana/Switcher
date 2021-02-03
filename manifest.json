@@ -1,25 +1,38 @@
 {
     "name": "Switcher",
-    "version": "2.0",
+    "version": "3.0",
     "description": "Pause and play music!",
+    "browser_action": {
+      "default_popup": "search.html"
+    },
     "commands": {
         "current": {
             "suggested_key": {
-                "default": "Alt+Shift+Up"
+                "default": "Ctrl+Shift+9"
             },
-            "description": "play or pause current song"
+            "description": "play or pause current song",
+            "global": true
         },
         "next": {
           "suggested_key": {
-              "default": "Alt+Shift+Right"
+              "default": "Ctrl+Shift+0"
           },
-          "description": "play next song"
+          "description": "play next song",
+          "global": true
       },
       "previous": {
         "suggested_key": {
-          "default": "Alt+Shift+Left"
+          "default": "Ctrl+Shift+8"
       },
-      "description": "play previous song"
+      "description": "play previous song",
+      "global": true
+      },
+      "_execute_browser_action" : {
+        "suggested_key": {
+          "default": "Ctrl+Shift+7"
+      },
+      "description": "search",
+      "global": true
       }
     },
     "permissions": [
