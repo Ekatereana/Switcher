@@ -1,15 +1,7 @@
-// chrome.browserAction.onClicked.addListener(function (tab) {
-//   // No tabs or host permissions needed!
-//   console.log("Turning " + tab.url + " red!");
-//   chrome.tabs.executeScript({
-//     code: 'document.body.style.backgroundColor="red"',
-//   });
-// });
-
-console.log('hello');
+const urls = ['https://www.youtube.com/*', 'https://open.spotify.com/*']
 
 chrome.commands.onCommand.addListener(function(command) {
-  chrome.tabs.query({url : 'https://www.youtube.com/*'}, function(tab){
+  chrome.tabs.query({url : urls}, function(tab){
     if(command === 'current') {
       chrome.tabs.executeScript(tab[0].id, {code: 'document.getElementsByClassName("ytp-play-button")[0].click();'});
     }
