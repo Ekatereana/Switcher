@@ -1,5 +1,7 @@
 const urls = ['https://www.youtube.com/*', 'https://open.spotify.com/*']
 
+chrome.
+
 chrome.commands.onCommand.addListener(function(command) {
   chrome.tabs.query({url : urls}, function(tab){
     if(command === 'current') {
