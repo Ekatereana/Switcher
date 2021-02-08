@@ -1,6 +1,6 @@
 # About
 
-Browser extention that provides an opportunity to controll Youtube music player in background mode by keyboard shortcuts
+Browser extention that provides an opportunity to controll Youtube & Spotify music player in background mode by keyboard shortcuts
 
 - **Ctrl+Shift+9** ~ play or pause current song
 - **Ctrl+Shift+0** ~ play next song in queue
