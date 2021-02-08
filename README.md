@@ -7,3 +7,4 @@ Browser extention that provides an opportunity to controll Youtube music player 
 - **Ctrl+Shift+8** ~ play previous song in queue
 
 ![Youtube](assets/youtube.png "Youtube")
+![Spotify](assets/spotify.png "Spotify")

@@ -1,6 +1,6 @@
 {
     "name": "Switcher",
-    "version": "3.1",
+    "version": "3.1.4",
     "description": "Pause and play music!",
     "browser_action": {
       "default_popup": "search.html"
